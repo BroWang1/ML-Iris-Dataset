@@ -15,10 +15,9 @@ Minimizaing Loss: Compared predicted outputs with actual values, set the learnin
 
 Visualization: Plotted the loss function to monitor and ensure it decreases over time  
 ___
-# Results
-# Here is the Loss Function Graph:  
+# The Loss Function Graph:  
 ![Error-Epoch](images/lossepo.png)
-# Here is its Training Progress Log:  
+# The Training Progress Log:  
 ![Error-Epoch](images/eponum.png)
 
 # Data Source
