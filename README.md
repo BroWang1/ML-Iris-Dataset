@@ -28,4 +28,13 @@ In the Repository named "iris_dataset.csv"
 
 # Note to self (What I learned)
 ___
-- 
+- initializing arguments and moving the neural network move forward  
+- pre-activation function(fully connected linear transformation)  
+- post-activation applies after the output of the pre-activation function (ReLu)  
+- using .unique() to get unique elements in a column  
+- train_test_split from sklearn allows to use the data set and split it into training and testing  
+- Convert into tensor FloatTensor() and LongTensor()  
+- nn.CrossEntropyLoss() to find how far us is the predicted data ((1/n)* E(y_real_training - y_predicted)^2)  
+- Adam optimizer and setting up the lr  
+- setting up backprogation w/ .backward()  
+  
