@@ -5,7 +5,7 @@ ___
 # Setting up the Model & Data Processing
 Initializing Arguments: Defined the input layer, number of hidden layers, neurons per hidden layer, and output layer  
 Loading Data: Imported the dataset from a CSV file  
-Processing: Separated inputs (X) and outputs (y), and label-encoded the Iris flower types ('Iris-setosa' → 0.0, 'Iris-versicolor' → 1.0, 'Iris-virginica' → 2.0)  
+Processing: Separated inputs (X) & outputs (y) + label-encoded the Iris flower types ('Iris-setosa' → 0.0, 'Iris-versicolor' → 1.0, 'Iris-virginica' → 2.0)  
 Training/Testing: Split the dataset randomly into training data and testing data  
 Minimizaing Loss: Compared predicted outputs with actual values, set the learning rate, and applied backpropagation with gradient descent to optimize the model  
 Visualization: Plotted the loss function to monitor and ensure it decreases over time  
