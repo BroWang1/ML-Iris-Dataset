@@ -14,11 +14,15 @@ Training/Testing: Split the dataset randomly into training data and testing data
 Minimizaing Loss: Compared predicted outputs with actual values, set the learning rate, and applied backpropagation with gradient descent to optimize the model  
 
 Visualization: Plotted the loss function to monitor and ensure it decreases over time  
+
+Testing Data: Turned off backpropagation and then used the testing data to evaluate the model
 ___
 # The Loss Function Graph:  
 ![Error-Epoch](images/lossepo.png)
 # The Training Progress Log:  
 ![Error-Epoch](images/eponum.png)
+# Test Results
+![flowernum](images/numcorrect.png)
 
 # Data Source
 ___
@@ -32,9 +36,11 @@ ___
 - pre-activation function(fully connected linear transformation)  
 - post-activation applies after the output of the pre-activation function (ReLu)  
 - using .unique() to get unique elements in a column  
-- train_test_split from sklearn allows to use the data set and split it into training and testing  
+- train_test_split from sklearn allows to use the data set and split it into training and testing by putting a percentage
 - Convert into tensor FloatTensor() and LongTensor()  
 - nn.CrossEntropyLoss() to find how far us is the predicted data ((1/n)* E(y_real_training - y_predicted)^2)  
 - Adam optimizer and setting up the lr  
-- setting up backprogation w/ .backward()  
+- setting up backprogation w/ .backward()
+- Turning off backpropagation
+- Evaulated the model to see what kind of score  it got
   
