@@ -16,6 +16,8 @@ Minimizaing Loss: Compared predicted outputs with actual values, set the learnin
 Visualization: Plotted the loss function to monitor and ensure it decreases over time  
 
 Testing Data: Turned off backpropagation and then used the testing data to evaluate the model
+
+Saving Neural Network: After liking the results I saved the model
 ___
 # The Loss Function Graph:  
 ![Error-Epoch](images/lossepo.png)
@@ -42,5 +44,7 @@ ___
 - Adam optimizer and setting up the lr  
 - setting up backprogation w/ .backward()
 - Turning off backpropagation
-- Evaulated the model to see what kind of score  it got
+- Evaulated the model by checking the score
+- Saving the Neural Network by torch.save(model.state_dict(),'name of the model.pt')
+- Loading Models by new_model.load_state_dict(torch.load('name of the model.pt')
   
